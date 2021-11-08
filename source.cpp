@@ -13,6 +13,10 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+
+	int sum = tong(a,b);
+	cout<< "Tong la" + sum;	
+
 	system("pause");
 	return 0;
 }
