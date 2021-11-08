@@ -14,15 +14,12 @@ int main()
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
 
-<<<<<<< HEAD
 	int hieu = hieu(a,b);
 	cout<< "Hieu la" + hieu;
 	
-=======
 	int sum = tong(a,b);
 	cout<< "Tong la" + sum;	
 
->>>>>>> 3aa734c1bfc3dad1074c4b50079e5d309f827af3
 	system("pause");
 	return 0;
 }
