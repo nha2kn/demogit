@@ -2,6 +2,7 @@
 using namespace std;
 int tong(int a, int b);
 int hieu(int a, int b);
+int tich(int a, int b);
 
 int main()
 {
@@ -19,6 +20,10 @@ int main()
 	
 	int sum = tong(a,b);
 	cout<< "Tong la" + sum;	
+
+	// Tính tích
+	int tich = tich(a,b);
+	cout<< "Tich la" + tich;	
 
 	system("pause");
 	return 0;
